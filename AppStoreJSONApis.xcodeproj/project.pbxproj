@@ -29,6 +29,8 @@
 		E41E650A22CB5FAC00DFDA89 /* AppsPageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E650922CB5FAC00DFDA89 /* AppsPageHeader.swift */; };
 		E41E650C22CB627700DFDA89 /* AppsHeaderHorizontalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E650B22CB627700DFDA89 /* AppsHeaderHorizontalController.swift */; };
 		E41E650E22CB645100DFDA89 /* AppsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E650D22CB645100DFDA89 /* AppsHeaderCell.swift */; };
+		E41E651022CB6B7000DFDA89 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E650F22CB6B7000DFDA89 /* AppGroup.swift */; };
+		E41E651222CB7D9500DFDA89 /* SocialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E651122CB7D9500DFDA89 /* SocialApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,8 @@
 		E41E650922CB5FAC00DFDA89 /* AppsPageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsPageHeader.swift; sourceTree = "<group>"; };
 		E41E650B22CB627700DFDA89 /* AppsHeaderHorizontalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsHeaderHorizontalController.swift; sourceTree = "<group>"; };
 		E41E650D22CB645100DFDA89 /* AppsHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsHeaderCell.swift; sourceTree = "<group>"; };
+		E41E650F22CB6B7000DFDA89 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+		E41E651122CB7D9500DFDA89 /* SocialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialApp.swift; sourceTree = "<group>"; };
 		EF9063BB2A6CBDB20381D280 /* Pods-AppStoreJSONApis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStoreJSONApis.debug.xcconfig"; path = "Target Support Files/Pods-AppStoreJSONApis/Pods-AppStoreJSONApis.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				E41E64F522CB228D00DFDA89 /* SearchResult.swift */,
+				E41E650F22CB6B7000DFDA89 /* AppGroup.swift */,
+				E41E651122CB7D9500DFDA89 /* SocialApp.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -322,7 +328,9 @@
 			files = (
 				E40D997B22C26E3200B1DE78 /* ViewController.swift in Sources */,
 				E40D997922C26E3200B1DE78 /* AppDelegate.swift in Sources */,
+				E41E651222CB7D9500DFDA89 /* SocialApp.swift in Sources */,
 				E41E64F622CB228D00DFDA89 /* SearchResult.swift in Sources */,
+				E41E651022CB6B7000DFDA89 /* AppGroup.swift in Sources */,
 				E41E64FC22CB454000DFDA89 /* AppsPageController.swift in Sources */,
 				E41E650E22CB645100DFDA89 /* AppsHeaderCell.swift in Sources */,
 				E40D998B22C26EFC00B1DE78 /* BaseTabBarController.swift in Sources */,
